@@ -1,0 +1,11 @@
+import random
+print("Hello welcome to my chatbot that give to you a random thing to do")
+time.sleep(2)
+print("So, what's your name?")
+a = str(input())
+print("Hello "+a)
+time.sleep(2)
+print("In 5 seconds my bot give to you a random thing to do!")
+time.sleep(5)
+choix = random.choice(["Go to sleep", "Do 5 push-ups", "Code on Python :)", "Call your girlfriend", "Do nothing ;)", "Eat a pizza", "Eat a burger", "Eat a ice cream", "Close your laptop ;)", "Stop coding on Python :(", "Learn HTML", "Cooking", "Go to mathexpress.fr", "Follow my github ;)", "Eat your fingers", "Go to the swimming pool", "Go running outside", "Destroy your computer:(" , "call your boyfriend", "Do 10 push-ups", "Do 15 push-ups", "go to the park", "buy a lamborghini", "go to the gym", "be nude during 20 seconds", "Ask chatgpt : I am suck at school, can you be more suckest?", "Post you face in a social media like Instagram, Facebook, ...", "Ask Andreï Barannikov to create a website", "Post Andreï Barannikov on you social media "  ])
+print(choix)
