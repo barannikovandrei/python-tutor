@@ -1,0 +1,15 @@
+# My first game in Python!
+import time
+print("What is your name?")
+a = str(input())
+print("How old are you")
+b = int(input())
+print("What is your credit card(in 0000-0000-0000-0000 format please)")
+c = int(input())
+print("Balance on your bank account : 0")
+time.sleep(2)
+print("HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA")
+time.sleep(2)
+print("Now I'm a millionaire")
+time.sleep(2)
+print("thanks "+a)
