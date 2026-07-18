@@ -1,0 +1,5 @@
+print("Please  write something")
+word = str(input())
+print("Please write the letter that you want to count")
+letter = str(input())
+print(word.count(letter))
