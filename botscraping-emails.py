@@ -3,7 +3,10 @@ from bs4 import BeautifulSoup
 import re
 
 #Enter the url of the website 
-url = "https://enteryoururl-plz.com" 
+
+url = "https://enteryoururl.com" 
+
+# Le programme permet de trouver l'email qu'il y'a sur n'importe quel site
 
 html = requests.get(url).text
 
